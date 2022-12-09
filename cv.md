@@ -10,10 +10,10 @@
 
 ---
 
-**Phone**: +7 (967)412-71-39;
-**Telegaram**: @AdalbiShug;
-**Discord**: Adalbi (@adalbi91);
-**Mail**: Shugushuhov@gmail.com;
+- **Phone**: +7 (967)412-71-39;
+- **Telegaram**: @AdalbiShug;
+- **Discord**: Adalbi (@adalbi91);
+- **Mail**: Shugushuhov@gmail.com;
 
 ## About me
 
