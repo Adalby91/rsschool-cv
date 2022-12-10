@@ -19,3 +19,9 @@
   color: #0366d3;
   text-decoration: none;
 }
+
+.heading,
+.headline {
+  border-bottom: 1px solid #eaecef;
+  margin-top: 25px;
+}
