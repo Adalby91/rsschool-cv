@@ -208,13 +208,12 @@ main {
 .footer-icons {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background: rgba(50, 66, 92, 1);
   box-shadow: inset 0px 5px 0px #293449;
   height: 80px;
-  min-width: 1200px;
 }
 
 .footer-links {
-  width: 50;
+  width: 715px;
 }

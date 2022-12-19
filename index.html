@@ -6,15 +6,61 @@
     <meta name="author" content="SitePoint" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>cv</title>
   </head>
   <body>
-    <div class="container">
-      <h1 class="heading">
-        <a class="link-cv" href="https://adalby91.github.io/rsschool-cv/cv"
-          >rsschool-cv</a
-        >
-      </h1>
+    <header>
+      <div class="container">
+        <nav class="menu">
+          <ul class="menu-list">
+            <li class="menu-list--item">
+              <a class="menu-list--link" href="#about myself">About myself</a>
+            </li>
+            <li class="menu-list--item">
+              <a class="menu-list--link" href="#contact">Contact</a>
+            </li>
+            <li class="menu-list--item">
+              <a class="menu-list--link" href="#skills">Skllis</a>
+            </li>
+            <li class="menu-list--item">
+              <a class="menu-list--link" href="#code">Code </a>
+            </li>
+            <li class="menu-list--item">
+              <a class="menu-list--link" href="#courses">Courses</a>
+            </li>
+            <li class="menu-list--item">
+              <a class="menu-list--link" href="#projects">Projects</a>
+            </li>
+            <li class="menu-list--item">
+              <a class="menu-list--link" href="#education">Education</a>
+            </li>
+            <li class="menu-list--item">
+              <a class="menu-list--link" href="#language">Language</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <div class="container-column">
+          <aside id="profile" class="profile">
+            <section class="profile-aside _section">
+              <h1 class="heading _rs-school">
+                <a
+                  class="link-cv"
+                  href="https://adalby91.github.io/rsschool-cv/cv"
+                  >rsschool-cv
+                </a>
+              </h1>
 
               <figure class="header__avatar">
                 <img
@@ -23,7 +69,6 @@
                   alt="Shugushkhov Adalbi"
                   width="265"
                   height="304"
-                  align="left"
                 />
               </figure>
 
@@ -140,46 +185,26 @@
         </div>
       </div>
     </main>
-    <footer class>
+    <footer class="footer">
       <div class="container">
         <section class="footer-icons">
-          <a
-            class="footer-links"
-            href="https://rs.school/js-en/"
-            target="_blank"
-            rel="noopener"
-          >
-            <img
-              class="icon"
-              width="100"
-              src="assets/svg/rs_school_js.svg"
-              alt="iconRS"
-            />
-          </a>
           <a
             class="footer-links"
             href="https://vk.com/adalby"
             target="_blank"
             rel="noopener"
-          >
-            <img class="icon" src="/assets/img/VK.png" alt="vk" width="50" />
-          </a>
-          <!--<a href="">
-            <img src="/assets/img/discord.png" alt="DS" />
-          </a>-->
-          <a
-            class="footer-links"
-            href="https://github.com/Adalby91"
-            target="_blank"
-            rel="noopener"
-          >
-            <img
-              class="icon"
-              src="/assets/img/github.png"
-              alt="GitHub"
-              width="50"
-            />
-          </a>
+            ><img src="/assets/img/VK.png" alt="vk" width="50" /> </a
+          ><a class="footer-links" href="https://rs.school/js-en/"
+            ><img
+              width="100"
+              src="assets/svg/rs_school_js.svg"
+              alt="iconRS"
+              target="_blank"
+              rel="noopener"
+            /> </a
+          ><a class="footer-links" href="#" target="_blank" rel="noopener"
+            ><img src="/assets/img/github.png" width="50" alt="GitHub"
+          /></a>
         </section>
       </div>
     </footer>
